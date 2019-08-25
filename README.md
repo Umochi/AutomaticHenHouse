@@ -5,10 +5,8 @@
 <hr />
 <p>Il motore che esegue l'apertura della porta tramite una barra filettata &egrave; un semplice motore a 12v che monta un mandrino.</p>
 <p>&nbsp;</p>
-<p><img style="transform: rotate(90deg);" src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4039.JPG" alt="" width="300" height="225" /><img style="transform: rotate(90deg);" src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4037.JPG" alt="" width="300" height="225" /></p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><img style="transform: rotate(90deg);" src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4036.JPG" alt="" width="300" height="225" /></p>
+<p><img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4039.JPG" alt="" width="300" height="225" /><img  src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4037.JPG" alt="" width="300" height="225" /></p>
+<p><img  src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4036.JPG" alt="" width="300" height="225" /></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <hr />
