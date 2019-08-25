@@ -19,17 +19,19 @@
 <p>La libreria: <strong>node-red-contrib-sun-position</strong> fornisce le funzionait&agrave; di schedulazioni con l'evento di alba e tramonto, relativo alla zona impostata.</p>
 <p><img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/SchermataNodeRed.jpg" alt="" width="600" height="237" /></p>
 <hr />
-<p>In breve, il comportamento del sistema &egrave; il seguente:</p>
-<p style="padding-left: 30px;">Il ciclo di Arduino esgue un loop, in cui controlla se sono presenti invocazioni sul servizio web esposto o pressione dei tasti.</p>
-<p style="padding-left: 30px;">Il servizio web, restituisce un <strong>json</strong> che riporta lo stato dei sensori di apertura e chiura e l'attivit&agrave; del motore.</p>
-<p style="padding-left: 30px;">Inoltre vengono recuperati i comandi inviati come url parameters, questi possono essere il comando di <strong>Chiusura</strong>, <strong>Apertura</strong> e di <strong>Stop</strong>.</p>
-<p style="padding-left: 30px;">Il comando di <strong>Stop</strong> non viene per&ograve; utilizzato all'interno della user interface esposta.</p>
-<p style="padding-left: 30px;">Viene anche data possibilit&agrave; di tarare l'energia utilizzata dal mototore in caso di necessit&agrave;. <strong>L'attivazione del motore viene eseguita al 100% del voltaggio disponibile</strong>, e viene ridotta al 50% dopo un secondo.</p>
-<p style="padding-left: 30px;">L'intera operazione di <strong>Apertura</strong>/<strong>Chiusura</strong> dura all'incirca 4 secondi.</p>
-<p style="padding-left: 30px;"><strong>La riduzione di potenza &egrave; importate, non solo per ridurre la velocit&agrave; e la possibil&agrave; di incidenti, ma per ridurre l'inerzia sul fine corsa, e la possibilit&agrave; di bloccare il meccanismo e non avare uno spunto sufficiente a avviare l'operazione successiva. </strong></p>
-<p style="padding-left: 30px;">Alcuni ritardi condizionati nel ciclo sono stati introdotti per non sovracaricare Arduino.</p>
-<p style="padding-left: 30px;">Il <strong>Flow</strong> creato in <strong>Node-Red</strong> si occupa di generare l'interfaccia grafica, e attivare le schedulazioni.</p>
-<p style="padding-left: 30px;">In particolare, la user interface mostra lo stato della porta, <strong>Chiusa</strong>, <strong>Aperta</strong> o in <strong>Stato Intermedio</strong> e lo stato di attivit&agrave; del motore.</p>
-<p style="padding-left: 30px;">Viene poi data lo possibilit&agrave; di attivare o disattivare l'esecuzione automatica.</p>
-<p style="padding-left: 30px;">Due bottoni invece rendono possibile forzare <strong>Chiusura</strong> e <strong>Apertura</strong>.</p>
-<p style="padding-left: 30px;">Quando lo switch &egrave; impostato su <strong>Automatico</strong>, la schedulazione condizionata dalla posizione del sole nello stato di <strong>"Alba"</strong> e <strong>"Fine Tramonto"</strong> scatenano le operazioni di apertura e chiusura.</p>
+<h3>Il comportamento del sistema &egrave; il seguente:</h3>
+<ul>
+<li>Il ciclo di Arduino esgue un loop, in cui controlla se sono presenti invocazioni sul servizio web esposto o pressione dei tasti.</li>
+<li>Il servizio web, restituisce un <strong>json</strong> che riporta lo stato dei sensori di apertura e chiura e l'attivit&agrave; del motore.</li>
+<li>Inoltre vengono recuperati i comandi inviati come url parameters, questi possono essere il comando di <strong>Chiusura</strong>, <strong>Apertura</strong> e di <strong>Stop</strong>.</li>
+<li>Il comando di <strong>Stop</strong> non viene per&ograve; utilizzato all'interno della user interface esposta.</li>
+<li>Viene anche data possibilit&agrave; di tarare l'energia utilizzata dal mototore in caso di necessit&agrave;. <strong>L'attivazione del motore viene eseguita al 100% del voltaggio disponibile</strong>, e viene ridotta al 50% dopo un secondo.</li>
+<li>L'intera operazione di <strong>Apertura</strong>/<strong>Chiusura</strong> dura all'incirca 4 secondi.</li>
+<li><strong>La riduzione di potenza &egrave; importate, non solo per ridurre la velocit&agrave; e la possibil&agrave; di incidenti, ma per ridurre l'inerzia sul fine corsa, e la possibilit&agrave; di bloccare il meccanismo e non avare uno spunto sufficiente a avviare l'operazione successiva. </strong></li>
+<li>Alcuni ritardi condizionati nel ciclo sono stati introdotti per non sovracaricare Arduino.</li>
+<li>Il <strong>Flow</strong> creato in <strong>Node-Red</strong> si occupa di generare l'interfaccia grafica, e attivare le schedulazioni.</li>
+<li>In particolare, la user interface mostra lo stato della porta, <strong>Chiusa</strong>, <strong>Aperta</strong> o in <strong>Stato Intermedio</strong> e lo stato di attivit&agrave; del motore.</li>
+<li>Viene poi data lo possibilit&agrave; di attivare o disattivare l'esecuzione automatica.</li>
+<li>Due bottoni invece rendono possibile forzare <strong>Chiusura</strong> e <strong>Apertura</strong>.</li>
+<li>Quando lo switch &egrave; impostato su <strong>Automatico</strong>, la schedulazione condizionata dalla posizione del sole nello stato di <strong>"Alba"</strong> e <strong>"Fine Tramonto"</strong> scatenano le operazioni di apertura e chiusura.</li>
+</ul>
