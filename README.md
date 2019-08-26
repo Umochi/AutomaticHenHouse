@@ -1,7 +1,7 @@
 <h1>#AutomaticHenHouse</h1>
 <h2>Progetto per automazione della porta di un pollaio.</h2>
 <p>L'hardware che si occupa dell'apertura e chiusura della porta &egrave; costituito da una scheda <strong>Arduino Uno</strong>, collegata alla rete tramite un <strong>ethernet-shield</strong>.</p>
-<p><img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/arduino_uno_main_board.jpg" alt="" width="200" height="200" /><img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/ethernet-shield.jpg" alt="Ethernet-Shield" width="200" /></p>
+<p><img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/arduino_uno_main_board.jpg" alt="" width="200" height="200" /><img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/ethernet-shield.jpg" alt="Ethernet-Shield" width="200" />&nbsp; <img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/Schema.jpg" alt="" width="338" height="154" /></p>
 <hr />
 <p>Il motore che esegue l'apertura della porta tramite una barra filettata &egrave; un semplice motore a 12v che monta un mandrino.</p>
 <p><img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4037.JPG" alt="" width="290" height="435" />&nbsp;&nbsp; <img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4039.JPG" alt="" width="290" height="435" /><img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4036.JPG" alt="" width="592" height="816" /></p>
