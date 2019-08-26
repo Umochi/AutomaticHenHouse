@@ -31,8 +31,8 @@
 <li>Alcuni ritardi condizionati nel ciclo sono stati introdotti per non sovracaricare Arduino.</li>
 <li>Il <strong>Flow</strong> creato in <strong>Node-Red</strong> si occupa di generare l'interfaccia grafica, e attivare le schedulazioni.</li>
 <li>La user interface mostra lo stato della porta, <strong>Chiusa</strong>, <strong>Aperta</strong> o in <strong>Stato Intermedio</strong> e lo stato di attivit&agrave; del motore.</li>
-<li>Viene poi data lo possibilit&agrave; di attivare o disattivare l'esecuzione automatica.</li>
+<li>Viene data lo possibilit&agrave; di attivare o disattivare l'esecuzione automatica.</li>
 <li>Due bottoni invece rendono possibile forzare <strong>Chiusura</strong> e <strong>Apertura</strong>.</li>
 <li>Quando lo switch &egrave; impostato su <strong>Automatico</strong>, la schedulazione condizionata dalla posizione del sole nello stato di <strong>"Alba"</strong> e <strong>"Fine Tramonto"</strong> scatenano le operazioni di apertura e chiusura.</li>
-<li>L'interfaccia pu&ograve; essere esposta su interntet, nel mio caso utilizzo un servizio gratuito di DDNS e NginX come reverse proxy e autenticazione.</li>
+<li>L'interfaccia pu&ograve; essere esposta su internet, nel mio caso utilizzo un servizio gratuito di <strong>DDNS</strong> e <strong>NginX</strong> per gestire reverse proxy e autenticazione.</li>
 </ul>
