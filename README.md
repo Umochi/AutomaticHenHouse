@@ -1,18 +1,18 @@
 <h1>#AutomaticHenHouse</h1>
 <h2>Progetto per automazione della porta di un pollaio.</h2>
-<p>L'hardware che si occupa dell'apertura e chiusura della porta &egrave; costituito da una scheda <strong>Arduino Uno</strong>, collegata alla rete tramite <strong>Ethernet-Shield</strong>.</p>
+<p>L'hardware che si occupa dell'apertura e chiusura della porta &egrave; costituito da una scheda <strong>Arduino Uno</strong>,<br /> collegata alla rete tramite <strong>Ethernet-Shield</strong>.</p>
 <p><img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/arduino_uno_main_board.jpg" alt="" width="200" height="200" /><img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/ethernet-shield.jpg" alt="Ethernet-Shield" width="200" />&nbsp; <img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/Schema.jpg" alt="" width="416" height="190" /></p>
 <hr />
 <p>Il motore che esegue l'apertura della porta tramite una barra filettata &egrave; un semplice motore a 12v che monta un mandrino.</p>
 <p><img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4037.JPG" alt="" width="290" height="435" />&nbsp;&nbsp; <img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4039.JPG" alt="" width="290" height="435" /><img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4036.JPG" alt="" width="592" height="816" /></p>
 <hr />
-<p>Per interfacciarsi con il motore &egrave; stato utilizzato un <strong>diver lmd18200</strong>, ma potevano essere utilizzati anche 4 semplici relais. L'utilizzo di questo diver permette di comandare oltre alla direzione e all'attivit&agrave; del motore anche il voltaggio in uscita per regolare la velocit&agrave; di salita e discesa.</p>
+<p>Per interfacciarsi con il motore &egrave; stato utilizzato un <strong>diver lmd18200</strong>, ma potevano essere utilizzati anche 4 semplici relais. L'utilizzo di questo diver permette di comandare oltre alla direzione e all'attivit&agrave; del motore, anche il voltaggio in uscita per regolare la velocit&agrave; di salita e discesa.</p>
 <p><img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4026.JPG" alt="" width="286" height="235" />&nbsp;&nbsp; <img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4034.JPG" alt="" width="200" height="235" /></p>
 <hr />
-<p>Due semplici bottoni (PCB Switch) costituiscono il fine corsa per lo sportello in apertura e chiusura. Altri due bottoni dello stesso tipo costituiscono una tastiera aggiuntiva per forzare la chiusura e l'apertura senza dover utilizzare l'interfaccia web service.</p>
+<p>Due semplici bottoni (PCB Switch) costituiscono il fine corsa per lo sportello in apertura e chiusura.<br /> Altri due bottoni dello stesso tipo costituiscono una tastiera aggiuntiva per forzare la chiusura e l'apertura senza dover utilizzare l'interfaccia web service.</p>
 <p><img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/Push-Button.jpg" width="230" height="230" />&nbsp;&nbsp; <img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4038.JPG" alt="" width="260" height="301" /></p>
 <hr />
-<p>L'interfaccia grafica e la gestione dell'automatizzazione della chiusura e apertura sono costituite da un applicazione <strong>Node-Red</strong>. In particolare la libreria <strong>node-red-dashboard</strong> fornisce i nodi necessari alla creazione dell'interfaccia grafica.</p>
+<p>L'interfaccia grafica e la gestione dell'automatizzazione della chiusura e apertura sono costituite da un flusso <strong>Node-Red</strong>. In particolare la libreria <strong>node-red-dashboard</strong> fornisce i nodi necessari alla creazione dell'interfaccia grafica. L'interfaccia generata &egrave; responsive e si adatta bene anche all'utilizzo da smartphone.</p>
 <p>&nbsp;</p>
 <p>&nbsp;<img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4054.PNG" alt="" width="200" height="356" />&nbsp;&nbsp; <img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4055.PNG" alt="" width="200" height="356" />&nbsp;&nbsp; <img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4056.PNG" alt="" width="200" height="356" /></p>
 <hr />
@@ -34,4 +34,5 @@
 <li>Viene poi data lo possibilit&agrave; di attivare o disattivare l'esecuzione automatica.</li>
 <li>Due bottoni invece rendono possibile forzare <strong>Chiusura</strong> e <strong>Apertura</strong>.</li>
 <li>Quando lo switch &egrave; impostato su <strong>Automatico</strong>, la schedulazione condizionata dalla posizione del sole nello stato di <strong>"Alba"</strong> e <strong>"Fine Tramonto"</strong> scatenano le operazioni di apertura e chiusura.</li>
+<li>L'interfaccia pu&ograve; essere esposta su interntet, nel mio caso utilizzo un servizio gratuito di DDNS e NginX come reverse proxy e autenticazione.</li>
 </ul>
