@@ -12,7 +12,7 @@
 <p>Due semplici bottoni (PCB Switch) costituiscono il fine corsa per lo sportello in apertura e chiusura.<br /> Altri due bottoni dello stesso tipo costituiscono una tastiera aggiuntiva per forzare la chiusura e l'apertura senza dover utilizzare l'interfaccia web service.</p>
 <p><img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/Push-Button.jpg" width="230" height="230" />&nbsp;&nbsp; <img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4038.JPG" alt="" width="260" height="301" /></p>
 <hr />
-<p>L'interfaccia grafica e la gestione dell'automatizzazione della chiusura e apertura sono costituite da un flusso <strong>Node-Red</strong>. In particolare la libreria <strong>node-red-dashboard</strong> fornisce i nodi necessari alla creazione dell'interfaccia grafica. L'interfaccia generata &egrave; responsive e si adatta bene anche all'utilizzo da smartphone.</p>
+<p>L'interfaccia grafica e la gestione dell'automatizzazione della chiusura e apertura sono costituite da un flusso <strong>Node-Red</strong>.<BR>In particolare la libreria <strong>node-red-dashboard</strong> fornisce i nodi necessari alla creazione dell'interfaccia grafica.<BR>L'interfaccia generata &egrave; responsive e si adatta bene anche all'utilizzo da smartphone.</p>
 <p>&nbsp;</p>
 <p>&nbsp;<img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4054.PNG" alt="" width="200" height="356" />&nbsp;&nbsp; <img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4055.PNG" alt="" width="200" height="356" />&nbsp;&nbsp; <img src="https://raw.githubusercontent.com/Umochi/AutomaticHenHouse/master/images/IMG_4056.PNG" alt="" width="200" height="356" /></p>
 <hr />
